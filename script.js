@@ -1,5 +1,5 @@
 // WhatsApp Configuration
-const WHATSAPP_NUMBER = '919876543210'; // Replace with your actual WhatsApp number
+const WHATSAPP_NUMBER = '919685215445'; // Replace with your actual WhatsApp number
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -62,7 +62,7 @@ contactForm.addEventListener('submit', function(e) {
 
     // Create WhatsApp message
     const whatsappMessage = encodeURIComponent(
-        `Hello AlumiFab,\n\n` +
+        `Hello HATIMI ALUMINIUM FABRIVATIONS,\n\n` +
         `I would like to inquire about your services.\n\n` +
         `*Customer Details:*\n` +
         `Name: ${fullName}\n` +
