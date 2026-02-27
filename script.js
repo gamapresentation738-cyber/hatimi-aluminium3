@@ -181,4 +181,4 @@ if (ctaButton) {
     });
 }
 
-console.log('✨ AlumiFab website loaded successfully with WhatsApp integration!');
+console.log('✨ hatimi aluminium fabrications website loaded successfully with WhatsApp integration!');
