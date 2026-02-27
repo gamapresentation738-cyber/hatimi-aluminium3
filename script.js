@@ -1,5 +1,5 @@
 // WhatsApp Configuration
-const WHATSAPP_NUMBER = '919685215445'; // Replace with your actual WhatsApp number
+const WHATSAPP_NUMBER = '919301252524'; // Replace with your actual WhatsApp number
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
