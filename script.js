@@ -14,7 +14,40 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
-
+// Filter Gallery by Category
+function filterGallery(category) {
+    // Get all gallery items
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    
+    // Get all filter buttons
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    
+    // Remove active class from all buttons
+    filterBtns.forEach(btn => btn.classList.remove('active'));
+    
+    // Add active class to clicked button
+    const activeBtn = document.querySelector(`[data-filter="${category}"]`);
+    if (activeBtn) {
+        activeBtn.classList.add('active');
+    }
+    
+    // Show/Hide gallery items
+    galleryItems.forEach(item => {
+        if (category === 'all') {
+            item.style.display = 'block';
+            item.classList.add('fade-in');
+        } else if (item.getAttribute('data-category') === category) {
+            item.style.display = 'block';
+            item.classList.add('fade-in');
+        } else {
+            item.style.display = 'none';
+            item.classList.remove('fade-in');
+        }
+    });
+    
+    // Scroll to gallery section
+    document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' });
+}
 // Gallery Filter Functionality
 const filterButtons = document.querySelectorAll('.filter-btn');
 const galleryItems = document.querySelectorAll('.gallery-item');
