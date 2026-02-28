@@ -488,10 +488,8 @@ body {
     opacity: 0;
     transition: all 0.3s ease;
 }
-
-.gallery-item:hover .gallery-overlay {
-    transform: translateY(0);
-    opacity: 1;
+.gallery-item:hover .gallery-image img {
+    transform: scale(1.05);
 }
 
 .gallery-overlay h4 {
