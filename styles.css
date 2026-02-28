@@ -575,7 +575,7 @@ body {
 }
 
 .about-image {
-    width:100%;
+    width:125%;
     height: 400px;
     background: linear-gradient(135deg, var(--royal-green), var(--light-brown));
     border-radius: 8px;
