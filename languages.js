@@ -25,13 +25,12 @@ const translations = {
         customSolutions: "Custom Solutions",
         customDesc: "Tailored designs for your unique requirements and specifications",
         analysis: "analysis",
-        analysisDesc: "Tailored designs for your unique requirements and specifications",
 
 
         // Services Section
         ourServices: "Our Services",
         fabrications: "Fabrications",
-        fabricationsDesc: "Transforming aluminium into strong, sleek, and sustainable solutions for homes, offices, and industries.",
+        fabricationsdesc: "Transforming aluminium into strong, sleek, and sustainable solutions for homes, offices, and industries.",
         mirrors: "Mirrors",
         mirrorsdesc: "Crafting mirrors that combine flawless clarity with modern design, adding beauty to homes and offices",
         celling: "celling",
@@ -62,7 +61,7 @@ const translations = {
         gallery: "Gallery",
         galleryTitle: "Our Work Gallery",
         all: "All",
-        fabrication: "fabrication",
+        fabrication:"fabrication",
         mirrors: "mirrors",
         celling: "celling",
         netlon: "netlon",
@@ -127,14 +126,15 @@ const translations = {
         supportDesc: "आपकी सभी निर्माण आवश्यकताओं के लिए चौबीसों घंटे ग्राहक समर्थन",
         customSolutions: "कस्टम समाधान",
         customDesc: "आपकी अद्वितीय आवश्यकताओं और विनिर्देशों के लिए तैयार डिजाइन",
+        analysis: "विश्लेषण",
         
         
         // Services Section
         ourServices: "हमारी सेवाएं",
         fabrications: "निर्माण",
-        fabricationsDesc: "एल्यूमीनियम को घरों, कार्यालयों और उद्योगों के लिए मजबूत, चिकने और टिकाऊ समाधान में बदलना।",
+        fabricationsdesc: "एल्यूमीनियम को घरों, कार्यालयों और उद्योगों के लिए मजबूत, चिकने और टिकाऊ समाधान में बदलना।",
         mirrors: "दर्पण",
-        mirrorsDesc: "त्रुटिहीन स्पष्टता और आधुनिक डिजाइन को जोड़ने वाले दर्पण तैयार करना",
+        mirrorsdesc: "त्रुटिहीन स्पष्टता और आधुनिक डिजाइन को जोड़ने वाले दर्पण तैयार करना",
         celling: "छत",
         celloingdesc: "हर जगह के लिए मज़बूती, शान और आधुनिक अंदाज़ से बनी छतों का डिज़ाइन और इंस्टॉलेशन।",
         finishing: "फिनिशिंग",
