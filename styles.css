@@ -327,39 +327,19 @@ body {
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
-    margin-top:40px;
+    gap: 20px;
+    margin-top:30px;
 }
 
 .service-item {
-    background: white;
+    background: var(--white);
     position:relative;
     cusor:pointer;
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     animation: slideUp 0.6s ease-out backwards;
-}
-/* Different gradient for each service type */
-.service-item[data-category="mirrors"] .service-image {
-    background: linear-gradient(135deg, #6B8A5A, #2D5016);
-}
-
-.service-item[data-category="partition"] .service-image {
-    background: linear-gradient(135deg, #5A8C4E, #1F3A0B);
-}
-
-.service-item[data-category="finishing"] .service-image {
-    background: linear-gradient(135deg, #8B7B6F, #4A4440);
-}
-
-.service-item[data-category="cnc"] .service-image {
-    background: linear-gradient(135deg, #7A6B5F, #3D3935);
-}
-
-.service-item[data-category="custom"] .service-image {
-    background: linear-gradient(135deg, #9B7F6F, #5A4F48);
 }
 
 .service-item:nth-child(1) { animation-delay: 0.1s; }
@@ -371,12 +351,11 @@ body {
 
 .service-image {
     width: 100%;
-    height: 250px;
+    height: 300px;
     background: linear-gradient(135deg, var(--royal-green), var(--light-brown));
     position: relative;
     overflow: hidden;
-    border-radius:8px 8px 0 0;
-    margin-bottom: 0;
+    border-radius:8px;
 }
 .service-image img {
     width: 100%;
@@ -396,23 +375,20 @@ body {
 }
 
 .service-item:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transform: translateY(-15px);
+    box-shadow: 0 20px 40px rgba(45, 80, 22, 0.15);
 }
 
 .service-item h3 {
     font-size: 1.3rem;
     color: var(--royal-green);
-    padding: 15rem 20rem 10rem;
-    margin: 0;
+    padding: 1.5rem 1.5rem 0.5rem;
 }
 
 .service-item p {
     color: #666;
-    padding: 0 20rem 20rem;
+    padding: 0 1.5rem 1.5rem;
     font-size: 0.95rem;
-    margin:0;
-    line-height: 1.5;
 }
 
 /* Gallery Section */
@@ -467,27 +443,23 @@ body {
     overflow: hidden;
     cursor: pointer;
     transition: all 0.3s ease;
-    animation: fadeIn 0.5s ease-in-out;
-}
-.gallery-item.fade-in {
-    animation: fadeIn 0.5s ease-in-out;
+    animation: fadeIn 0.6s ease-out;
 }
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(10px);
+        transform: scale(0.95);
     }
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: scale(1);
     }
 }
 
 .gallery-item.hidden {
     display: none;
 }
-
 
 .gallery-image {
     width: 100%;
@@ -868,11 +840,7 @@ body {
     .gallery-filters {
         gap: 0.5rem;
     }
-.filter-btn.active {
-    background-color: #2D5016;
-    color: white;
-    font-weight: 600;
-}
+
     .filter-btn {
         padding: 8px 16px;
         font-size: 0.85rem;
