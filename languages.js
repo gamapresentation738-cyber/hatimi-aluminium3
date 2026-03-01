@@ -25,6 +25,8 @@ const translations = {
         customSolutions: "Custom Solutions",
         customDesc: "Tailored designs for your unique requirements and specifications",
         analysis: "analysis",
+        analysisDesc:"Tailored designs for your unique requirements and specifications",
+        
 
 
         // Services Section
@@ -127,7 +129,7 @@ const translations = {
         customSolutions: "कस्टम समाधान",
         customDesc: "आपकी अद्वितीय आवश्यकताओं और विनिर्देशों के लिए तैयार डिजाइन",
         analysis: "विश्लेषण",
-        
+        analysisDesc:"आपकी विशिष्ट आवश्यकताओं और विनिर्देशों के अनुसार अनुकूलित डिज़ाइन",
         
         // Services Section
         ourServices: "हमारी सेवाएं",
