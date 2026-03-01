@@ -24,6 +24,9 @@ const translations = {
         supportDesc: "Round-the-clock customer support for all your fabrication needs",
         customSolutions: "Custom Solutions",
         customDesc: "Tailored designs for your unique requirements and specifications",
+        analysis: "analysis",
+        analysisDesc: "Tailored designs for your unique requirements and specifications",
+
 
         // Services Section
         ourServices: "Our Services",
@@ -31,22 +34,47 @@ const translations = {
         fabricationsDesc: "Transforming aluminium into strong, sleek, and sustainable solutions for homes, offices, and industries.",
         mirrors: "Mirrors",
         mirrorsDesc: "Crafting mirrors that combine flawless clarity with modern design, adding beauty to homes and offices",
-        partitions: "Partitions",
-        partitionsDesc: "Professional office divider systems",
+        celling: "celling",
+        cellingDesc: "Designing and installing ceilings that combine strength, elegance, and modern style for every space",
         finishing: "Finishing",
         finishingDesc: "Anodizing, powder coating, and polishing for perfect surfaces",
-        cncCutting: "CNC Cutting",
-        cncDesc: "Precision cutting with advanced CNC machinery for exact dimensions",
+        glass: "glass work",
+        glassDesc: "From sleek partitions to custom installations, our glass work enhances interiors with elegance and durability",
+        customWork: "cnc cutting",
+        customWorkDesc: "Precision cutting with advanced CNC machinery for exact dimensions",
+        customWork: "wallpaper",
+        customWorkDesc: "Transform walls into timeless style with elegant wallpaper",
+        customWork: "blinds",
+        customWorkDesc: "Style your windows with sleek blinds for modern living",
+        customWork: "ss railling",
+        customWorkDesc: "Add strength and shine with stylish SS railings.",
+        customWork: "netlon",
+        customWorkDesc: "Keep your home fresh and safe with Netlon screens",
+        customWork: "home decor",
+        customWorkDesc: "“Elevate every corner with stylish home décor.",
+        customWork: "repairing",
+        customWorkDesc: "Restore strength and shine with expert aluminium repairing.",
         customWork: "Custom Work",
-        customWorkDesc: "Expert design guidance to optimize your project specifications",
+        customWorkDesc: "Crafted to perfection, custom aluminium works for every need",
+        
 
         // Gallery Section
         gallery: "Gallery",
         galleryTitle: "Our Work Gallery",
         all: "All",
-        doors: "Doors",
-        windows: "Windows",
-        wardrobe: "Wardrobe",
+        fabrication: "fabrication",
+        mirrors: "mirrors",
+        celling: "celling",
+        netlon: "netlon",
+        ss: "ss railling",
+        wallpaper: "wallpaper",
+        cnc: "cnc",
+        home: "home",
+        custom: "custom",
+        glass: "glass",
+        finishing: "finishing",
+        blinds: "blinds",
+        
 
         // About Section
         aboutTitle: "About HATIMI ALUMINUM",
@@ -99,7 +127,8 @@ const translations = {
         supportDesc: "आपकी सभी निर्माण आवश्यकताओं के लिए चौबीसों घंटे ग्राहक समर्थन",
         customSolutions: "कस्टम समाधान",
         customDesc: "आपकी अद्वितीय आवश्यकताओं और विनिर्देशों के लिए तैयार डिजाइन",
-
+        
+        
         // Services Section
         ourServices: "हमारी सेवाएं",
         fabrications: "निर्माण",
@@ -114,14 +143,25 @@ const translations = {
         cncDesc: "सटीक आयामों के लिए उन्नत सीएनसी मशीनरी के साथ सटीक कटिंग",
         customWork: "कस्टम कार्य",
         customWorkDesc: "आपकी परियोजना विनिर्देशों को अनुकूलित करने के लिए विशेषज्ञ डिजाइन मार्गदर्शन",
+        analysis: "विश्लेषण",
+        analysisDesc: "आपकी विशिष्ट आवश्यकताओं और विनिर्देशों के अनुसार तैयार किए गए डिज़ाइन"
 
         // Gallery Section
         gallery: "गैलरी",
         galleryTitle: "हमारी कार्य गैलरी",
         all: "सभी",
-        doors: "दरवाजे",
-        windows: "खिड़कियां",
-        wardrobe: "अलमारी",
+        fabrication: "निर्माण",
+        mirrors: "दर्पण",
+        celling: "सीलिंग",
+        netlon: "नेटलॉन",
+        ss: "एस.एस. रेलिंग",
+        wallpaper: "वॉलपेपर",
+        cnc: "सी.एन.सी.",
+        home: "घर",
+        custom: "कस्टम",
+        glass: "काँच",
+        finishing: "फिनिशिंग",
+        blinds: "खिड़की परदे",
 
         // About Section
         aboutTitle: "हतिमी एल्यूमीनियम के बारे में",
