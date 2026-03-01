@@ -19,34 +19,38 @@
                 </svg>
                 <span>HATMI ALUMINIUM</span>
             </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+               <div class="language-switcher">
+            <button class="lang-btn" data-lang="en" onclick="changeLanguage('en')">English</button>
+            <button class="lang-btn" data-lang="hi" onclick="changeLanguage('hi')">हिन्दी</button>
         </div>
+
+        <ul class="nav-links">
+            <li><a href="#home" data-i18n="home">Home</a></li>
+            <li><a href="#services" data-i18n="services">Services</a></li>
+            <li><a href="#gallery" data-i18n="gallery">Gallery</a></li>
+            <li><a href="#about" data-i18n="about">About</a></li>
+            <li><a href="#contact" data-i18n="contact">Contact</a></li>
+        </ul>
+    </div>
     </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Premium Aluminum <span class="gradient-text">Fabrication Solutions</span></h1>
-            <p class="hero-subtitle">Crafting excellence with precision engineering and modern design.<h3><span class="gradient-text">Built Strong. Built to Last</span></h3></p>
-            <button class="cta-button">Get Started</button>
-        </div>
-        <div class="hero-animation">
-            <div class="floating-shape shape-1"></div>
-            <div class="floating-shape shape-2"></div>
-            <div class="floating-shape shape-3"></div>
-        </div>
-    </section>
+    <div class="hero-content">
+        <h1 class="hero-title">
+            <span data-i18n="heroTitle">Premium Aluminum</span>
+            <span class="gradient-text" data-i18n="heroTitleSpan">Fabrication Solutions</span>
+        </h1>
+        <p class="hero-subtitle" data-i18n="heroSubtitle">Crafting excellence with precision engineering and modern design.</p>
+        <h3><span class="gradient-text" data-i18n="heroTagline">Built Strong. Built to Last</span></h3>
+        <button class="cta-button" data-i18n="getStarted">Get Started</button>
+    </div>
+</section>
 
     <!-- Features Section -->
     <section class="features">
         <div class="container">
-            <h2 class="section-title">Why Choose Us</h2>
+            <h2 class="section-title" data-i18n="whyChooseUs">Why Choose Us</h2>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -55,8 +59,8 @@
                             <path d="M18 24L22 28L30 20" stroke="#A0826D" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
-                    <h3>Quality Assured</h3>
-                    <p>Best quality grade aluminium for the longer sustainability </p>
+                    <h3 data-i18n="qualityAssured">Quality Assured</h3>
+                    <p data-i18n="qualitydesc">Best quality grade aluminium for the longer sustainability </p>
                 </div>
 
                 <div class="feature-card">
@@ -66,8 +70,8 @@
                             <path d="M12 12V8M36 12V8" stroke="#A0826D" stroke-width="2"/>
                         </svg>
                     </div>
-                    <h3>Fast Delivery</h3>
-                    <p>Quick turnaround times without compromising on quality standards</p>
+                    <h3 data-i18n="fast delivery">Fast Delivery</h3>
+                    <p data-i18n="fastdesc">Quick turnaround times without compromising on quality standards</p>
                 </div>
 
                 <div class="feature-card">
@@ -77,8 +81,8 @@
                             <path d="M24 14V24L30 30" stroke="#A0826D" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
-                    <h3>24/7 Support</h3>
-                    <p>Round-the-clock customer support for all your fabrication needs</p>
+                    <h3 data-i18n="24/7 support">24/7 Support</h3>
+                    <p data-i18n="supportdesc">Round-the-clock customer support for all your fabrication needs</p>
                 </div>
 
                 <div class="feature-card">
@@ -87,8 +91,8 @@
                             <path d="M10 24L18 32L38 12" stroke="#2D5016" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </div>
-                    <h3>Custom Solutions</h3>
-                    <p>Tailored designs for your unique requirements and specifications</p>
+                    <h3 data-i18n="custom solutions">Custom Solutions</h3>
+                    <p data-i18n="customdesc">Tailored designs for your unique requirements and specifications</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
@@ -97,8 +101,8 @@
                             <path d="M24 14V24L30 30" stroke="#A0826D" stroke-width="2" stroke-linecap="round"/>
                         </svg>
                     </div>
-                    <h3>analysis requirement</h3>
-                    <p>analyis the workspace and provide solutions accordingly</p>
+                    <h3 data-i18n="analysis">analysis requirement</h3>
+                    <p data-i18n="analysisdesc">analyis the workspace and provide solutions accordingly</p>
                 </div>
             </div>
         </div>
@@ -107,51 +111,51 @@
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">Our Services</h2>
+            <h2 class="section-title"data-i18n="ourServices>Our Services</h2>
             <div class="services-grid">
                 <div class="service-item" data-category="fabrication" onclick="filterGallery('fabrication')">
                     <div class="service-image">
                         <img src="images/fabrication-1.png" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>Fbarications</h3>
-                    <p>Transforming aluminium into strong, sleek, and sustainable solutions for homes, offices, and industries.</p>
+                    <h3 data-i18n="fabrications">Fbarications</h3>
+                    <p data-i18n="fabricationsdesc">Transforming aluminium into strong, sleek, and sustainable solutions for homes, offices, and industries.</p>
                 </div>
 
                  <div class="service-item" data-category="mirrors" onclick="filterGallery('mirrors')">
                     <div class="service-image">
                         <img src="images/mirror-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>Mirrors</h3>
-                    <p>Crafting mirrors that combine flawless clarity with modern design, adding beauty to homes and offices</p>
+                    <h3 data-i18n="mirrors">Mirrors</h3>
+                    <p data-i18n="mirrorsdesc">Crafting mirrors that combine flawless clarity with modern design, adding beauty to homes and offices</p>
                 </div>
  <div class="service-item" data-category="celling" onclick="filterGallery('celling')">
                     <div class="service-image">
                         <img src="images/celling-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>Celling</h3>
-                    <p>Designing and installing ceilings that combine strength, elegance, and modern style for every space</p>
+                    <h3 data-i18n="celling">Celling</h3>
+                    <p data-i18n="celloingdesc">Designing and installing ceilings that combine strength, elegance, and modern style for every space</p>
                 </div>
 
               <div class="service-item" data-category="finishing" onclick="filterGallery('finishing')">
                     <div class="service-image">
                         <img src="images/powder-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>Finishing</h3>
-                    <p>Anodizing, powder coating, and polishing for perfect surfaces</p>
+                    <h3 data-i18n="finishing">Finishing</h3>
+                    <p data-i18n=" finishingdesc">Anodizing, powder coating, and polishing for perfect surfaces</p>
                 </div>
                  <div class="service-item" data-category="glass" onclick="filterGallery('glass')">
                     <div class="service-image">
                         <img src="images/glass work-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>glass works</h3>
-                    <p>From sleek partitions to custom installations, our glass work enhances interiors with elegance and durability</p>
+                    <h3 data-i18n="glass">glass works</h3>
+                    <p data-i18n="glassdesc">From sleek partitions to custom installations, our glass work enhances interiors with elegance and durability</p>
                 </div>
 <div class="service-item" data-category="cnc" onclick="filterGallery('cnc')">
                     <div class="service-image">
                         <img src="images/cnc-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>CNC Cutting</h3>
-                    <p>Precision cutting with advanced CNC machinery for exact dimensions</p>
+                    <h3 data-i18n="cnc">CNC Cutting</h3>
+                    <p data-i18n="cncdesc">Precision cutting with advanced CNC machinery for exact dimensions</p>
                 </div>
                 
                 <div class="service-item" data-category="wallpaper" onclick="filterGallery('wallpaper')">
@@ -159,8 +163,8 @@
                     <div class="service-image">
                         <img src="images/wall-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>wallpaper</h3>
-                    <p>got problems with your old section and don't want to upgrade,we can repair it!</p>
+                    <h3 data-i18n="wall">wallpaper</h3>
+                    <p data-i18n="walldesc">got problems with your old section and don't want to upgrade,we can repair it!</p>
                 </div>
                 
                    <div class="service-item" data-category="blinds" onclick="filterGallery('blinds')">
@@ -168,8 +172,8 @@
                     <div class="service-image">
                         <img src="images/blinds-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>blinds</h3>
-                    <p>got problems with your old section and don't want to upgrade,we can repair it!</p>
+                    <h3 data-i18n="blinds">blinds</h3>
+                    <p data-i18n="blindsdesc">got problems with your old section and don't want to upgrade,we can repair it!</p>
                 </div>
                 
     <div class="service-item" data-category="ss railling" onclick="filterGallery('ss railling')">
@@ -177,8 +181,8 @@
                     <div class="service-image">
                         <img src="images/ss-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>SS railings</h3>
-                    <p>got problems with your old section and don't want to upgrade,we can repair it!</p>
+                    <h3 data-i18n="ss">SS railings</h3>
+                    <p data-i18n="ssdesc">got problems with your old section and don't want to upgrade,we can repair it!</p>
                 </div>
                 
   <div class="service-item" data-category="netlon" onclick="filterGallery('netlon')">
@@ -186,24 +190,24 @@
                     <div class="service-image">
                         <img src="images/netlon-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>netlon</h3>
-                    <p>got problems with your old section and don't want to upgrade,we can repair it!</p>
+                    <h3 data-i18n="netlon">netlon</h3>
+                    <p data-i18n="netlondesk">got problems with your old section and don't want to upgrade,we can repair it!</p>
                 </div>
                 
     <div class="service-item" data-category="home decor" onclick="filterGallery('home decor')">
                     <div class="service-image">
                         <img src="images/home-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>home decore</h3>
-                    <p>got problems with your old section and don't want to upgrade,we can repair it!</p>
+                    <h3 data-i18n="home">home decore</h3>
+                    <p data-i18n="homedesc">got problems with your old section and don't want to upgrade,we can repair it!</p>
                 </div>
                 
   <div class="service-item" data-category="repairing" onclick="filterGallery('repairing')">
                     <div class="service-image">
                         <img src="images/repairing-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>Reparing</h3>
-                    <p>got problems with your old section and don't want to upgrade,we can repair it!</p>
+                    <h3 data-i18n="repairing">Reparing</h3>
+                    <p data-i18n="repairingdesc">got problems with your old section and don't want to upgrade,we can repair it!</p>
                 </div>
 
 
@@ -211,8 +215,8 @@
                     <div class="service-image">
                         <img src="images/custom-1.jpg" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
-                    <h3>custom work</h3>
-                    <p>Expert design guidance to optimize your project specifications</p>
+                    <h3 data-i18n="custom">custom work</h3>
+                    <p data-i18n="customdesc">Expert design guidance to optimize your project specifications</p>
                 </div>
             </div>
         </div>
@@ -221,23 +225,23 @@
     <!-- Gallery Section -->
     <section id="gallery" class="gallery">
         <div class="container">
-            <h2 class="section-title">Our Work Gallery</h2>
+            <h2 class="section-title" data-i18n="galleryTitle">Our Work Gallery</h2>
             
             <!-- Gallery Filter -->
             <div class="gallery-filters">
                 <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="fabrication" onclick="filterGallery('fabrication')">fabrication</button>
-                <button class="filter-btn" data-filter="mirrors" onclick="filterGallery('mirrors')">mirrors</button>
-                <button class="filter-btn" data-filter="celling" onclick="filterGallery('celling')">celling</button>
-                <button class="filter-btn" data-filter="netlon" onclick="filterGallery('netlon')">netlon</button>
-                <button class="filter-btn" data-filter="ss railing" onclick="filterGallery('ss railing')">ss railing</button>
-                <button class="filter-btn" data-filter="wallpaper" onclick="filterGallery('wallpaper')">wallpaper</button>
-                <button class="filter-btn" data-filter="cnc" onclick="filterGallery('cnc')">cnc</button>
-                <button class="filter-btn" data-filter="home decor" onclick="filterGallery('home decor')">home decor</button>
-                <button class="filter-btn" data-filter="custom work" onclick="filterGallery('custom work')">custom work</button>
-                <button class="filter-btn" data-filter="glass" onclick="filterGallery('glass')">glass</button>
-                <button class="filter-btn" data-filter="finishing" onclick="filterGallery('finishing')">finishing</button>
-                <button class="filter-btn" data-filter="blinds" onclick="filterGallery('blinds')">blinds</button>
+                <button class="filter-btn" data-filter="fabrication" onclick="filterGallery('fabrication')"data-i18n="fabriaction">fabrication</button>
+                <button class="filter-btn" data-filter="mirrors" onclick="filterGallery('mirrors')"data-i18n="mirrors">mirrors</button>
+                <button class="filter-btn" data-filter="celling" onclick="filterGallery('celling')" data-i18n="celling">celling</button>
+                <button class="filter-btn" data-filter="netlon" onclick="filterGallery('netlon')" data-i18n="netlon">netlon</button>
+                <button class="filter-btn" data-filter="ss railing" onclick="filterGallery('ss railing')" data-i18n="ss railing">ss railing</button>
+                <button class="filter-btn" data-filter="wallpaper" onclick="filterGallery('wallpaper')" data-i18n="wallpaper">wallpaper</button>
+                <button class="filter-btn" data-filter="cnc" onclick="filterGallery('cnc')" data-i18n="cnc">cnc</button>
+                <button class="filter-btn" data-filter="home decor" onclick="filterGallery('home decor')" data-i18n="home">home decor</button>
+                <button class="filter-btn" data-filter="custom work" onclick="filterGallery('custom work')" data-i18n="custom">custom work</button>
+                <button class="filter-btn" data-filter="glass" onclick="filterGallery('glass')" data-i18n="glass">glass</button>
+                <button class="filter-btn" data-filter="finishing" onclick="filterGallery('finishing')" data-i18n="finishing">finishing</button>
+                <button class="filter-btn" data-filter="blinds" onclick="filterGallery('blinds')"data-i18n="blinds">blinds</button>
                 
                 
             </div>
@@ -1306,9 +1310,9 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
-                    <h2>About HATIMI ALUMINUM</h2>
-                    <p>With over 20 years of experience in aluminum fabrication, we have evry possible solutions for your desired problem.</p>
-                    <p>We specialize in premium aluminium fabrication, delivering durable, precise, and custom-made solutions for residential, commercial, and industrial needs. Our expertise ensures high-quality finishes, modern designs, and long-lasting performance</p>
+                    <h2 data-i18n="aboutTitle">About HATIMI ALUMINUM</h2>
+                    <p data-i18n="aboutdesc1">With over 20 years of experience in aluminum fabrication, we have evry possible solutions for your desired problem.</p>
+                    <p data-i18n="aboutdesc2">We specialize in premium aluminium fabrication, delivering durable, precise, and custom-made solutions for residential, commercial, and industrial needs. Our expertise ensures high-quality finishes, modern designs, and long-lasting performance</p>
                     <div class="stats">
                         <div class="stat">
                             <h4>250+</h4>
@@ -1334,7 +1338,7 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
+            <h2 class="section-title" data-i18n="getInTouch">Get In Touch</h2>
             <div class="contact-wrapper">
                 <div class="contact-form">
                     <form id="contactForm">
@@ -1415,6 +1419,8 @@
         </div>
     </footer>
 
+    <!-- Add scripts at the bottom of body -->
+    <script src="languages.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
