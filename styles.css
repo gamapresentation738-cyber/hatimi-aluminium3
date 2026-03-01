@@ -29,7 +29,49 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+/* Language Switcher */
+.language-switcher {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 
+.lang-btn {
+    padding: 8px 15px;
+    background-color: #f0f0f0;
+    border: 2px solid #2D5016;
+    color: #2D5016;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    background-color: #e8e8e8;
+}
+
+.lang-btn.active {
+    background-color: #2D5016;
+    color: white;
+    border-color: #2D5016;
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .language-switcher {
+        gap: 5px;
+    }
+
+    .lang-btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+}
 /* Navigation */
 .navbar {
     position: sticky;
