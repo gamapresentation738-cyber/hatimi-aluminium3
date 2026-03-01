@@ -109,7 +109,7 @@
         <div class="container">
             <h2 class="section-title">Our Services</h2>
             <div class="services-grid">
-                <div class="service-item" data-category="cutting">
+                <div class="service-item" data-category="fabrication" onclick="filterGallery('fabrication')">
                     <div class="service-image">
                         <img src="images/fabrication-1.png" alt="Modern Aluminum Doors" loading="lazy">
                     </div>
@@ -224,15 +224,22 @@
             <!-- Gallery Filter -->
             <div class="gallery-filters">
                 <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="doors">Doors</button>
-                <button class="filter-btn" data-filter="windows">Windows</button>
-                <button class="filter-btn" data-filter="wardrobe">Wardrobe</button>
-                <button class="filter-btn" data-filter="partition">Partitions</button>
-                <button class="filter-btn" data-filter="partition">mirrors</button>
-                <button class="filter-btn" data-filter="partition">celling</button>
-                <button class="filter-btn" data-filter="partition">luwers</button>
+                <button class="filter-btn" data-filter="fabrication" onclick="filterGallery('fabrication')">fabrication</button>
+                <button class="filter-btn" data-filter="mirrors" onclick="filterGallery('mirrors')">mirrors</button>
+                <button class="filter-btn" data-filter="celling" onclick="filterGallery('celling')">celling</button>
+                <button class="filter-btn" data-filter="netlon" onclick="filterGallery('netlon')">netlon</button>
+                <button class="filter-btn" data-filter="ss railing" onclick="filterGallery('ss railing')">ss railing</button>
+                <button class="filter-btn" data-filter="wallpaper" onclick="filterGallery('wallpaper')">wallpaper</button>
+                <button class="filter-btn" data-filter="cnc" onclick="filterGallery('cnc')">cnc</button>
+                <button class="filter-btn" data-filter="home decor" onclick="filterGallery('home decor')">home decor</button>
+                <button class="filter-btn" data-filter="custom work" onclick="filterGallery('custom work')">custom work</button>
+                <button class="filter-btn" data-filter="glass" onclick="filterGallery('glass')">glass</button>
+                <button class="filter-btn" data-filter="finishing" onclick="filterGallery('finishing')">finishing</button>
+                <button class="filter-btn" data-filter="blinds" onclick="filterGallery('blinds')">blinds</button>
+                
                 
             </div>
+
 
             <!-- Gallery Grid -->
             <div class="gallery-grid">
